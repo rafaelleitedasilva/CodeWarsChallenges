@@ -1,3 +1,4 @@
+/* My Solution */
 function check(a, x) {
     let ch = true;
      for(let y = 0; y < a.length; y++){
@@ -9,3 +10,12 @@ function check(a, x) {
      }
     return ch
 }
+
+/* Other Solutions */
+function check(a, x) {
+    return a.includes(x);
+}
+
+function check(a,x){
+    return a.indexOf(x) > -1 ? true : false;
+  };
