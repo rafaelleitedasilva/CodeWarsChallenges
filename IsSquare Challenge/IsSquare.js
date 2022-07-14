@@ -1,0 +1,1 @@
+const isSquare = (n) => Number.isInteger(Math.pow(n, 0.5))? true: false;
